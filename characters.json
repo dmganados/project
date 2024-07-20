@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Monkey D. Luffy",
+        "image": "https://wallpapers.com/images/high/luffy-1920-x-1080-background-2r350no38dr7ah8j.webp",
+        "label": "Straw Hat Pirate",
+        "description": "Captain of the Straw Hat Pirate."
+    },
+    {
+        "name": "Roronoa Zoro",
+        "image": "https://wallpapers.com/images/high/zoro-wano-xztowyvmkqm9k62t.webp",
+        "label": "Straw Hat Pirate",
+        "description": "Swordsman of the Straw Hat Pirates."
+    },
+    {
+        "name": "Nami",
+        "image": "https://wallpapers.com/images/high/nami-one-piece-yc839i54hrf6v886.webp",
+        "label": "Straw Hat Pirate",
+        "description": "Navigator of the Straw Hat Pirates"
+    },
+    {
+        "name": "Usopp",
+        "image": "https://wallpapers.com/images/high/one-piece-usopp-name-board-vzl3b5z21lvgah2b.webp",
+        "label": "Straw Hat Pirate",
+        "description": "Snipper of the Straw Hat Pirates"
+    },
+    {
+        "name": "Vinsmoke Sanji",
+        "image": "https://wallpapers.com/images/high/sanji-4k-6854izlkrpqpaevs.webp",
+        "label": "Straw Hat Pirate",
+        "description": "Cook of the Straw Hat Pirates"
+    },
+    {
+        "name": "Tony Tony Chopper",
+        "image": "https://wallpapers.com/images/high/one-piece-chopper-syt2h7pt9syt4a58.webp",
+        "label": "Straw Hat Pirate",
+        "description": "Doctor of the Straw Hat Pirates"
+    },
+    {
+        "name": "Nico Robin",
+        "image": "https://wallpapers.com/images/high/nico-robin-2048-x-1707-wallpaper-18y7us57dsk7tq86.webp",
+        "label": "Straw Hat Pirate",
+        "description": "Archaeologist of the Straw Hat Pirates"
+    },
+    {
+        "name": "Franky",
+        "image": "https://wallpapers.com/images/high/franky-1200-x-900-wallpaper-2y6j46qy2qfomip6.webp",
+        "label": "Straw Hat Pirate",
+        "description": "Shipwright of the Straw Hat Pirates"
+    },
+    {
+        "name": "Jinbe",
+        "image": "https://wallpapers.com/images/high/jinbe-fish-man-karate-one-piece-wano-4k-adtzb38c7amst89n.webp",
+        "label": "Straw Hat Pirate",
+        "description": "Helmsman of the Straw Hat Pirates"
+    }
+]

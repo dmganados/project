@@ -44,8 +44,6 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    /* align-content: flex-end; */
-    /* left: 0px; */
 }
 
 nav ul li {
@@ -62,8 +60,6 @@ nav ul li a {
 
 nav ul li a:hover, nav ul li a:focus {
     color: #FFFFFF;
-    /* background-color: #F77F00;
-    border-radius: 4px; */
 }
 
 nav ul li::after {
@@ -93,6 +89,7 @@ main {
     padding: 1rem;
 }
 
+/* Introduction Section */
 .intro {
     background-image: url(https://wallpapers.com/images/high/straw-hat-pirates-from-one-piece-2qm6hj4300ooh5m6.webp);
     background-size: cover;
@@ -128,10 +125,83 @@ main {
     margin-bottom: 1rem;
 }
 
-/* .intro h2, .intro p {
-    margin: 0;
-    padding: 0;
-} */
+/* Character Profile Section */
+.character-profiles {
+    padding: 2rem 1rem;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.character-profiles h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.character {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.character img {
+    width: 100%;
+    height: 200px; /* Set a fixed height */
+    object-fit: cover; /* Ensure the image covers the area while maintaining aspect ratio */
+    border-radius: 8px;
+}
+
+.character .label {
+    margin-top: 0.5rem;
+    font-weight: bold;
+    color: #003049;
+}
+
+.character h3 {
+    margin: 0.5rem 0;
+    font-size: 1.25rem;
+    color: #D62828;
+}
+
+.character p {
+    font-size: 1rem;
+    color: #353535;
+}
+
+/* Slick Carousel Styles */
+.slick-prev, .slick-next, .slick-arrow {
+    width: 50px;
+    height: 50px;
+    font-size: 50px; /* Increase the size for better visibility */
+    color: #D62828; /* Change this color to a brighter one */
+    z-index: 1; /* Ensure the arrows are above other elements */
+    line-height: 50px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.7); /* Add a semi-transparent background */
+    border-radius: 50%;
+}
+
+.slick-prev:hover, .slick-next:hover {
+    background: rgba(255, 255, 255, 1); /* Change the background on hover */
+}
+
+.slick-prev:before, .slick-next:before {
+    font-size: 30px; /* Ensure the font size is large */
+    color: #D62828; /* Change the arrow color */
+}
+
+.slick-slide {
+    margin: 0 10px;
+}
+
 
 .latest {
     margin-top: 2rem;
