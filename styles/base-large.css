@@ -1,20 +1,19 @@
-/* @media (min-width: 768px) {
-    .burger-menu {
-        display: none;
+@media (min-width: 768px) {
+    .allies-enemies ul {
+        grid-template-columns: repeat(3, 1fr); /* 3 columns layout */
     }
+}
 
-    nav ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
+.allies-enemies ul li {
+    margin: 0;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
 
-    nav ul li {
-        margin: 0 1em;
-    }
-
-    main {
-        max-width: 800px;
-        margin: 0 auto;
-    }
-} */
+.allies-enemies ul li img {
+    width: 100px; 
+    height: 100px;
+    object-fit: cover;
+    margin-right: 0.5rem;
+}

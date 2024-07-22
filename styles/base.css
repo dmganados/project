@@ -127,7 +127,8 @@ main {
 
 /* Character Profile Section */
 .character-profiles {
-    padding: 2rem 1rem;
+    margin: 20px;
+    padding: 20px;
     text-align: center;
     background-color: #f5f5f5;
 }
@@ -137,26 +138,31 @@ main {
     margin-bottom: 1rem;
 }
 
-.carousel {
+.character-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    gap: 1rem;
 }
 
 .character {
     background-color: #fff;
     border-radius: 8px;
     padding: 1rem;
-    margin: 1rem;
+    margin: 1rem ;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 100%;
+    min-height: 900px;
+    box-sizing: border-box;
 }
 
 .character img {
     width: 100%;
-    height: 200px; /* Set a fixed height */
-    object-fit: cover; /* Ensure the image covers the area while maintaining aspect ratio */
     border-radius: 8px;
+    max-height: 200px; 
+    object-fit: cover;
 }
 
 .character .label {
@@ -167,44 +173,149 @@ main {
 
 .character h3 {
     margin: 0.5rem 0;
-    font-size: 1.25rem;
-    color: #D62828;
+    color: #003049;
 }
 
 .character p {
-    font-size: 1rem;
-    color: #353535;
+    margin: 0.5rem 0;
+    flex: 1;
+    color: #333;
 }
 
 /* Slick Carousel Styles */
-.slick-prev, .slick-next, .slick-arrow {
-    width: 50px;
-    height: 50px;
-    font-size: 50px; /* Increase the size for better visibility */
-    color: #D62828; /* Change this color to a brighter one */
-    z-index: 1; /* Ensure the arrows are above other elements */
-    line-height: 50px;
-    text-align: center;
-    background: rgba(255, 255, 255, 0.7); /* Add a semi-transparent background */
-    border-radius: 50%;
+.slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.slick-prev:hover, .slick-next:hover {
-    background: rgba(255, 255, 255, 1); /* Change the background on hover */
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
 }
 
-.slick-prev:before, .slick-next:before {
-    font-size: 30px; /* Ensure the font size is large */
-    color: #D62828; /* Change the arrow color */
+.slick-track {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
 .slick-slide {
-    margin: 0 10px;
+    position: relative;
+    display: block;
+    padding: 0 10px; /* Add padding to separate slides */
 }
 
+.character img {
+    width: 100%;
+    /* height: auto; */
+    display: block;
+    margin-bottom: 10px;
+}
+
+.character {
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    background: #f9f9f9;
+}
+
+/* Slick arrows */
+.slick-prev, .slick-next {
+    font-size: 24px;
+    color: #333;
+    line-height: 1;
+    opacity: 0.75;
+    transition: opacity .15s ease-in-out;
+}
+
+.slick-prev:hover, .slick-next:hover {
+    opacity: 1;
+}
+
+/* Allies and Enemies Section */
+.allies-enemies {
+    padding: 2rem 1rem;
+    background-color: #fff;
+}
+
+.allies-enemies h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #003049;
+}
+
+.allies-enemies h4 {
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    color: #003049;
+}
+
+.allies-enemies ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    display: grid;
+    gap: 1rem;
+}
+
+.allies-enemies ul li {
+    margin: 0.5rem 0;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+.allies-enemies ul li img {
+    width: 100px; 
+    height: 100px;
+    object-fit: cover;
+    margin-right: 0.5rem;
+}
+
+/* Character Development Section */
+.character-development {
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.character-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.character-development h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.character-development ul {
+    list-style-type: none;
+    padding-left: 1.5rem;
+}
+
+.character-development ul li {
+    margin: 0.5rem 0;
+    color: #333;
+    text-align: justify;
+}
 
 .latest {
     margin-top: 2rem;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 footer {

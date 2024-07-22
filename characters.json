@@ -1,56 +1,176 @@
-[
-    {
-        "name": "Monkey D. Luffy",
-        "image": "https://wallpapers.com/images/high/luffy-1920-x-1080-background-2r350no38dr7ah8j.webp",
-        "label": "Straw Hat Pirate",
-        "description": "Captain of the Straw Hat Pirate."
-    },
-    {
-        "name": "Roronoa Zoro",
-        "image": "https://wallpapers.com/images/high/zoro-wano-xztowyvmkqm9k62t.webp",
-        "label": "Straw Hat Pirate",
-        "description": "Swordsman of the Straw Hat Pirates."
-    },
-    {
-        "name": "Nami",
-        "image": "https://wallpapers.com/images/high/nami-one-piece-yc839i54hrf6v886.webp",
-        "label": "Straw Hat Pirate",
-        "description": "Navigator of the Straw Hat Pirates"
-    },
-    {
-        "name": "Usopp",
-        "image": "https://wallpapers.com/images/high/one-piece-usopp-name-board-vzl3b5z21lvgah2b.webp",
-        "label": "Straw Hat Pirate",
-        "description": "Snipper of the Straw Hat Pirates"
-    },
-    {
-        "name": "Vinsmoke Sanji",
-        "image": "https://wallpapers.com/images/high/sanji-4k-6854izlkrpqpaevs.webp",
-        "label": "Straw Hat Pirate",
-        "description": "Cook of the Straw Hat Pirates"
-    },
-    {
-        "name": "Tony Tony Chopper",
-        "image": "https://wallpapers.com/images/high/one-piece-chopper-syt2h7pt9syt4a58.webp",
-        "label": "Straw Hat Pirate",
-        "description": "Doctor of the Straw Hat Pirates"
-    },
-    {
-        "name": "Nico Robin",
-        "image": "https://wallpapers.com/images/high/nico-robin-2048-x-1707-wallpaper-18y7us57dsk7tq86.webp",
-        "label": "Straw Hat Pirate",
-        "description": "Archaeologist of the Straw Hat Pirates"
-    },
-    {
-        "name": "Franky",
-        "image": "https://wallpapers.com/images/high/franky-1200-x-900-wallpaper-2y6j46qy2qfomip6.webp",
-        "label": "Straw Hat Pirate",
-        "description": "Shipwright of the Straw Hat Pirates"
-    },
-    {
-        "name": "Jinbe",
-        "image": "https://wallpapers.com/images/high/jinbe-fish-man-karate-one-piece-wano-4k-adtzb38c7amst89n.webp",
-        "label": "Straw Hat Pirate",
-        "description": "Helmsman of the Straw Hat Pirates"
-    }
-]
+{
+
+    "characters": [
+        {
+            "name": "Monkey D. Luffy",
+            "image": "https://wallpapers.com/images/high/luffy-1920-x-1080-background-2r350no38dr7ah8j.webp",
+            "devilFruit": "Gum-Gum Fruit (Gomu Gomu no Mi)",
+            "role": "Captain",
+            "description": "Luffy is the protagonist and leader of the Straw Hat Pirates. He possesses immense strength, durability, and a fearless spirit. His goal is to become the Pirate King by finding the legendary treasure, One Piece."
+        },
+        {
+            "name": "Roronoa Zoro",
+            "image": "https://wallpapers.com/images/high/zoro-wano-xztowyvmkqm9k62t.webp",
+            "weapons": "Three swords style (Santoryu)",
+            "role": "Swordsman",
+            "description": "Zoro is the Straw Hats' swordsman with unparalleled sword skills and a dream to become the world's greatest swordsman. He is known for his dedication to his goals and his loyalty to his crewmates."
+        },
+        {
+            "name": "Vinsmoke Sanji",
+            "image": "https://wallpapers.com/images/high/sanji-4k-6854izlkrpqpaevs.webp",
+            "fightingStyle": "Black Leg Style",
+            "role": "Cook",
+            "description": "Sanji is the crew's cook and a skilled martial artist. He values chivalry and is known for his exceptional cooking and swift kicks. He dreams of finding the All Blue, a legendary sea where all fish can be found."
+        },
+        {
+            "name": "Nami",
+            "image": "https://wallpapers.com/images/high/nami-one-piece-yc839i54hrf6v886.webp",
+            "skills": "Cartography, navigation, weather forecasting",
+            "role": "Navigator",
+            "description": "Nami is the crew's navigator, skilled in map-making and navigating the treacherous Grand Line. She is also a savvy thief-turned-navigator with a goal to chart the entire world's oceans."
+        },
+        {
+            "name": "Usopp",
+            "image": "https://wallpapers.com/images/high/one-piece-usopp-name-board-vzl3b5z21lvgah2b.webp",
+            "weapon": "Kabuto (slingshot)",
+            "role": "Snipper",
+            "description": "Usopp is the crew's sniper and a talented inventor. Known for his tall tales and resourcefulness, Usopp's dream is to become a brave warrior of the sea like his father."
+        },
+        {
+            "name": "Tony Tony Chopper",
+            "image": "https://wallpapers.com/images/high/one-piece-chopper-syt2h7pt9syt4a58.webp",
+            "devilFruit": "Human-Human Fruit (Hito Hito no Mi)",
+            "role": "Doctor",
+            "description": "Chopper is the crew's doctor, a skilled physician who can transform into various forms due to his Devil Fruit powers. He aims to become a doctor who can cure any illness."
+        },
+        {
+            "name": "Nico Robin",
+            "image": "https://wallpapers.com/images/high/nico-robin-2048-x-1707-wallpaper-18y7us57dsk7tq86.webp",
+            "devilFruit": "Flower-Flower Fruit (Hana Hana no Mi)",
+            "role": "Archaeologist",
+            "description": "Robin is the crew's archaeologist with a deep knowledge of history and the ability to create clones of her body parts. She seeks to uncover the true history of the world."
+        },
+        {
+            "name": "Franky",
+            "image": "https://wallpapers.com/images/high/franky-1200-x-900-wallpaper-2y6j46qy2qfomip6.webp",
+            "modifications": "Cyborg enhancements",
+            "role": "Shipwright",
+            "description": "Franky is the crew's shipwright, known for his eccentric personality and ability to build and modify ships. He dreams of creating and sailing on the ultimate ship."
+        },
+        {
+            "name": "Brook",
+            "image": "https://wallpapers.com/images/high/one-piece-black-and-white-s25cq9yebqzozd3f.webp",
+            "devilFruit": "Revive-Revive Fruit (Yomi Yomi no Mi)",
+            "role": "Musician",
+            "description": "Brook is the crew's musician with a skeletal appearance due to his Devil Fruit powers. He is a skilled swordsman and entertainer with a dream to reunite with his long-lost whale companion."
+        },
+        {
+            "name": "Jinbe",
+            "image": "https://wallpapers.com/images/high/jinbe-fish-man-karate-one-piece-wano-4k-adtzb38c7amst89n.webp",
+            "fightingStyle": "Fish-Man Karate",
+            "role": "Helmsman",
+            "description": "Jinbe is the crew's helmsman and a Fish-Man karate master. Known for his wisdom and loyalty, Jinbe aims to bring harmony between humans and fish-men."
+        }
+    ],
+    "allies": [
+        {
+            "name": "Trafalgar D. Water Law",
+            "description": "Captain of the Heart Pirates and a powerful ally with the ability to manipulate space.",
+            "image": "https://wallpapers.com/images/high/angry-trafalgar-law-one-piece-fanart-1x46evo1xatb7a1f.webp"
+        },
+        {
+            "name": "Portgas D. Ace",
+            "description": "Luffy's brother and a former member of the Whitebeard Pirates.",
+            "image": "https://wallpapers.com/images/high/one-piece-ace-whitebeard-crossbones-rued1j81vcbo1lhl.webp"
+        },
+        {
+            "name": "Vivi Nefertari",
+            "description": "Former princess of Alabasta and an honorary Straw Hat ally.",
+            "image": "https://wallpapers.com/images/high/nefertari-vivi-with-karoo-wug8l2oyanw00zcf.webp"
+        },
+        {
+            "name": "Shanks",
+            "description": "One of the Four Emperors of the Sea, known for his strong connections with Luffy and the Straw Hat Pirates.",
+            "image": "https://wallpapers.com/images/high/black-coat-and-sword-shanks-one-piece-n0zdkoks3jzsya4b.webp"
+        },
+        {
+            "name": "Sabo",
+            "description": "Luffy's sworn brother and a leader of the Revolutionary Army, skilled in the Mera Mera no Mi powers.",
+            "image": "https://wallpapers.com/images/high/sabo-1920-x-1080-wallpaper-a11i2l194rv0afrw.webp"
+        },
+        {
+            "name": "Eustass Kid",
+            "description": "Captain of the Kid Pirates and a rival of Luffy with powerful abilities and a strong will.",
+            "image": "https://wallpapers.com/images/high/eustass-kid-face-close-up-fzea7fs77eyhbyon.webp"
+        },
+        {
+            "name": "Yamato",
+            "description": "The daughter of Kaido who admires Oden and joins Luffy's fight against her father.",
+            "image": "https://wallpapers.com/images/high/yamato-anime-profile-6u2kmzg3jw4d28b0.webp"
+        },
+        {
+            "name": "Boa Hancock",
+            "description": "The Empress of Amazon Lily and a powerful ally with the ability to petrify opponents.",
+            "image": "https://wallpapers.com/images/high/boa-hancock-1366-x-768-wallpaper-aojnbcuojochels4.webp"
+        },
+        {
+            "name": "Jewelry Bonney",
+            "description": "Captain of the Bonney Pirates with the ability to manipulate age, making her a valuable ally.",
+            "image": "https://wallpapers.com/images/high/jewelry-bonney-1066-x-1066-wallpaper-qy6t7m8ac25j0kt1.webp"
+        }
+
+    ],
+    "enemies": [
+        {
+            "name": "Crocodile",
+            "description": "A former Warlord of the Sea and leader of Baroque Works with the power to control sand.",
+            "image": "https://static.vecteezy.com/system/resources/thumbnails/014/439/439/small/manga-anime-pirate-japan-character-cute-cartoon-free-vector.jpg"
+        },
+        {
+            "name": "Rob Lucci",
+            "description": "A member of CP0 and former leader of CP9, known for his mastery of Rokushiki.",
+            "image": "https://wallpapers.com/images/high/rob-lucci-1366-x-768-wallpaper-j99gyy4t58hwa1qs.webp"
+        },
+        {
+            "name": "Enel",
+            "description": "A former 'god' of Skypiea with the power to control lightning.",
+            "image": "https://wallpapers.com/images/high/one-piece-enel-1024-x-750-wallpaper-eujm1k52utp5k0e5.webp"
+        },
+        {
+            "name": "Donquixote Doflamingo",
+            "description": "A former Warlord of the Sea with the power to manipulate strings.",
+            "image": "https://wallpapers.com/images/high/doflamingo-one-piece-anime-artwork-2rwp17w8i3qvomy3.webp"
+        },
+        {
+            "name": "Charlotte Linlin (Big Mom)",
+            "description": "One of the Four Emperors of the Sea with immense strength and a hunger for sweets.",
+            "image": "https://wallpapers.com/images/high/big-mom-1280-x-720-wallpaper-u05b5kzdsod9zdlc.webp"
+        },
+        {
+            "name": "Kaido",
+            "description": "Another of the Four Emperors known for his durability and the ability to transform into a dragon.",
+            "image": "https://wallpapers.com/images/high/kaido-2211-x-1500-wallpaper-hmw73rcmyrl7uz45.webp"
+        },
+        {
+            "name": "Marshall D. Teach (Blackbeard)",
+            "description": "A notorious pirate with the power of two Devil Fruits.",
+            "image": "https://wallpapers.com/images/high/black-one-piece-wallpaper-x9hiubcxoxfa5zr3.webp"
+        },
+        {
+            "name": "Kizaru (Borsalino)",
+            "description": "A Marine Admiral known for his light-based abilities.",
+            "image": "https://wallpapers.com/images/high/kizaru-1280-x-720-wallpaper-kjgjpa6434mgmmc9.webp"
+        },
+        {
+            "name": "Akainu (Sakazuki)",
+            "description": "The current Fleet Admiral of the Marines known for his ruthless pursuit of justice.",
+            "image": "https://wallpapers.com/images/high/akainu-blazing-artwork-sbonriewlsbmf4j9.webp"
+        }
+    ],
+    "development": [
+        "<strong>Dreams and Goals</strong>: Each Straw Hat Pirate has a distinct dream that drives their actions and growth throughout the series. These dreams often evolve and intersect with their personal growth and relationships.",
+        "<strong>Friendship and Bonds</strong>: The bonds between the crewmembers, forged through shared adventures and hardships, are a central theme. Characters develop not only individually but also in how they support and rely on each other.",
+        "<strong>Facing Adversity</strong>: Characters face numerous challenges and adversaries that test their resolve, principles, and abilities. These challenges often lead to significant growth and evolution in their personalities and skills.",
+        "<strong>Redemption and Forgiveness</strong>: Many characters, including former enemies and allies, undergo journeys of redemption and forgiveness, reflecting themes of second chances and the complexities of morality in a pirate-filled world."
+    ]
+}
