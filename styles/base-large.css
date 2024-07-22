@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
     .allies-enemies ul {
         grid-template-columns: repeat(3, 1fr); /* 3 columns layout */
     }

@@ -242,8 +242,12 @@ main {
 
 /* Allies and Enemies Section */
 .allies-enemies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
     padding: 2rem 1rem;
     background-color: #fff;
+    justify-content: space-between;
 }
 
 .allies-enemies h3 {
@@ -280,6 +284,7 @@ main {
     margin-right: 0.5rem;
 }
 
+
 /* Character Development Section */
 .character-development {
     padding: 20px;
@@ -309,6 +314,8 @@ main {
     color: #333;
     text-align: justify;
 }
+
+
 
 .latest {
     margin-top: 2rem;
@@ -363,5 +370,9 @@ footer {
         padding: 1rem;
         font-size: 1.5rem;
         cursor: pointer;
+    }
+
+    .column {
+        flex: 0 0 100%;
     }
 }
