@@ -1,0 +1,81 @@
+{
+    "episodes": [
+        {
+            "number": 1,
+            "title": "Romance Dawn - The Dawn of Adventure",
+            "summary": "Luffy sets out to sea to find the legendary One Piece and becomes King of the Pirates. He meets a young boy named Koby who dreams of becoming a Marine.",
+            "review": "A great start to the series, introducing the main character and setting the tone for the adventure. The episode balances action, humor, and heartwarming moments effectively.",
+            "key_moments": "Luffy's escape from Alvida's ship, Koby's decision to join the Marines, and Luffy's declaration of his dream."
+        },
+        {
+            "number": 2,
+            "title": "Enter the Great Swordsman! Pirate Hunter Roronoa Zoro!",
+            "summary": "Luffy and Koby arrive at Shells Town where they meet Roronoa Zoro, a fearsome pirate hunter who has been captured by the Marines.",
+            "review": "An exciting episode that introduces one of the series' most beloved characters, Zoro. The episode highlights Zoro's strength and determination.",
+            "key_moments": "Zoro's introduction, Luffy's confrontation with Captain Morgan, and Zoro's decision to join Luffy."
+        },
+        {
+            "number": 3,
+            "title": "Morgan vs. Luffy! Who's This Beautiful Young Girl?",
+            "summary": "Luffy and Zoro continue their battle against Captain Morgan and the Marines. Meanwhile, a mysterious girl named Nami is introduced.",
+            "review": "A solid episode that sets up future storylines and introduces another key character.",
+            "key_moments": "Luffy and Zoro's teamwork, Nami's introduction, and the defeat of Captain Morgan."
+        },
+        {
+            "number": 4,
+            "title": "Luffy's Past! Enter Red-Haired Shanks!",
+            "summary": "Luffy recalls his childhood and his idolization of the pirate Shanks. This episode explores Luffy's backstory and his motivation to become a pirate.",
+            "review": "A touching and important episode that provides insight into Luffy's past and his strong bond with Shanks.",
+            "key_moments": "Luffy eating the Devil Fruit, Shanks saving Luffy, and Luffy receiving Shanks' hat."
+        },
+        {
+            "number": 5,
+            "title": "Fear, Mysterious Power! Pirate Clown Captain Buggy!",
+            "summary": "Luffy and Zoro encounter the pirate Buggy, who possesses a Devil Fruit ability that allows him to detach his body parts.",
+            "review": "A fun and action-packed episode that introduces a memorable villain and showcases Luffy's and Zoro's abilities.",
+            "key_moments": "Buggy's powers, the fight with Buggy's crew, and Nami's alliance with Luffy."
+        }
+        
+    ],
+    "fillerArcs": [
+        {
+            "title": "Warship Island Arc",
+            "episodes_covered": "54-61",
+            "overview": "Luffy and his crew help a girl named Apis return a dragon to its homeland while evading the Marines.",
+            "recommendation": "While the arc is non-canon, it provides some fun moments and character interactions. Worth a watch if you enjoy the Straw Hat crew's adventures."
+        },
+        {
+            "title": "Post-Alabasta Arc",
+            "episodes_covered": "131-135",
+            "overview": "A series of standalone episodes focusing on the different members of the Straw Hat crew.",
+            "recommendation": "These episodes provide deeper insights into the characters' backgrounds and are enjoyable for character development enthusiasts."
+        },
+        {
+            "title": "Goat Island Arc",
+            "episodes_covered": "136-138",
+            "overview": "The crew encounters an old man living alone on an island with a herd of goats.",
+            "recommendation": "A light-hearted and whimsical arc that offers a nice break from the intense main story."
+        },
+        {
+            "title": "Ruluka Island Arc",
+            "episodes_covered": "139-143",
+            "overview": "The crew visits an island under the rule of a tyrannical mayor who extorts the inhabitants.",
+            "recommendation": "An arc with a mix of action and comedy, showcasing the Straw Hats' sense of justice."
+        },
+        {
+            "title": "G-8 Arc",
+            "episodes_covered": "196-206",
+            "overview": "The crew infiltrates a Marine base to retrieve their stolen ship and escape undetected.",
+            "recommendation": "Highly recommended for its strong story, memorable characters, and great action sequences."
+        }
+       
+    ],
+    "upcomingEpisodes": [
+        {
+            "title": "The Battle Intensifies - Luffy vs. Kaido Continues",
+            "release_date": "August 15, 2024",
+            "preview": "Luffy and Kaido's fierce battle reaches new heights as they unleash their ultimate attacks. The outcome of the battle will have significant implications for the future of Wano.",
+            "speculations": "Fans speculate that this episode might reveal more about Kaido's past and his motivations. Some believe it will set the stage for a major turning point in the Wano arc."
+        }
+    ]
+}

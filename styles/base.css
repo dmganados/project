@@ -320,10 +320,76 @@ main {
     text-align: justify;
 }
 
+/* Episode Guides */
+.episode-guides {
+    padding: 20px;
+    margin: 20px;
+    background-color: #f5f5f5;
+}
 
+.episode-guides h2 {
+    text-align: center;
+    color: #003049;
+    margin-bottom: 1rem;
+}
 
-.latest {
+.episode-guides h3 {
+    color: #D62828;
     margin-top: 2rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.episode-guides p {
+    margin: 0.5rem 0;
+    color: #333;
+}
+
+.episode-guides article {
+    background-color: #fff;
+    border: 1px solid #D9D9D9;
+    border-radius: 8px;
+    margin: 2rem auto;
+    /* padding: 1rem; */
+}
+
+.episode-guides .episode-summary,
+.episode-guides .filler-arc,
+.episode-guides .upcoming-episode {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    /* border: 1px solid #D9D9D9; */
+    /* border-radius: 8px; */
+    /* background-color: #F9F9F9; */
+}
+
+.episode-guides h4 {
+    color: #284B63;
+    margin-bottom: 0.5rem;
+}
+
+#episode-guides .episode-summary p strong,
+#episode-guides .filler-arc p strong,
+#episode-guides .upcoming-episode p strong {
+    color: #284B63; /* Dark blue */
+}
+
+.scrollable-card {
+    max-height: 300px;
+    overflow-y: scroll;
+    padding: 1rem;
+    /* border: 1px solid #D9D9D9; */
+    /* border-radius: 8px; */
+    /* background-color: #F9F9F9; */
+}
+
+/* .scrollable-card::-webkit-scrollbar{
+    width: 8px;
+} */
+
+
+.episode-summary, .filler-arc, .upcoming-episode {
+    margin-bottom: 1rem;
 }
 
 html {
