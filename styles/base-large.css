@@ -17,3 +17,30 @@
     object-fit: cover;
     margin-right: 0.5rem;
 }
+
+.episode-summary, .filler-arc {
+    display: flex;
+    align-items: flex-start;
+    background-color: #fff;
+}
+
+.episode-summary img, .filler-arc img {
+    width: 100px; 
+    height: 100px;
+    object-fit: cover;
+    margin-right: 1rem;
+    align-self: center;
+}
+
+.episode-summary-content h4, .filler-arc-content h4 {
+    margin: 0 0 0.5rem 0;
+}
+
+.episode-summary-content p, .filler-arc-content p {
+    margin: .2rem 0;
+}
+
+.episode-summary-content, .filler-arc-content {
+    display: flex;
+    flex-direction: column;
+}

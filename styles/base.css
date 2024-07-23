@@ -163,6 +163,8 @@ main {
     border-radius: 8px;
     max-height: 200px; 
     object-fit: cover;
+    display: block;
+    margin-bottom: 10px;
 }
 
 .character .label {
@@ -212,12 +214,12 @@ main {
     padding: 0 10px; /* Add padding to separate slides */
 }
 
-.character img {
+/* .character img {
     width: 100%;
-    /* height: auto; */
+
     display: block;
     margin-bottom: 10px;
-}
+} */
 
 .character {
     text-align: center;
@@ -293,7 +295,6 @@ main {
 /* Character Development Section */
 .character-development {
     padding: 20px;
-    /* background-color: #fff; */
     margin-top: 20px;
     border-radius: 5px;
 }
@@ -350,7 +351,6 @@ main {
     border: 1px solid #D9D9D9;
     border-radius: 8px;
     margin: 2rem auto;
-    /* padding: 1rem; */
 }
 
 .episode-guides .episode-summary,
@@ -358,9 +358,6 @@ main {
 .episode-guides .upcoming-episode {
     margin-bottom: 1rem;
     padding: 1rem;
-    /* border: 1px solid #D9D9D9; */
-    /* border-radius: 8px; */
-    /* background-color: #F9F9F9; */
 }
 
 .episode-guides h4 {
@@ -378,18 +375,198 @@ main {
     max-height: 300px;
     overflow-y: scroll;
     padding: 1rem;
-    /* border: 1px solid #D9D9D9; */
-    /* border-radius: 8px; */
-    /* background-color: #F9F9F9; */
 }
 
-/* .scrollable-card::-webkit-scrollbar{
-    width: 8px;
+/* .episode-summary-content {
+    display: flex;
+    flex-direction: column;
 } */
 
+/* Blog Section */
+#blog {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f5f5f5; /* White background */
+}
 
-.episode-summary, .filler-arc, .upcoming-episode {
+#blog h2 {
+    text-align: center;
+    color: #003049; /* Dark blue */
     margin-bottom: 1rem;
+}
+
+#blog h3 {
+    color: #D62828; /* Red */
+    margin: 1rem;
+}
+
+#blog p {
+    margin: 0.5rem 0;
+    color: #333;
+}
+
+#blog .scrollable-card {
+    max-height: 300px;
+    overflow-y: scroll;
+    padding: 1rem;
+    background-color: #F9F9F9; 
+}
+
+#blog .post, #blog .opinion-article, #blog .guest-post {
+    padding: 1rem;
+}
+
+#blog h4 {
+    color: #284B63;
+    margin-bottom: 0.5rem;
+}
+
+#blog .post p strong,
+#blog .opinion-article p strong,
+#blog .guest-post p strong {
+    color: #284B63;
+}
+
+/* About Section */
+.about {
+    padding: 2em 0;
+    /* background-color: #EAE2B7; */
+}
+
+.about h2 {
+    text-align: center;
+    color: #003049;
+    margin-bottom: 1em;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+.about-maker, .site-mission {
+    background-color: #FFFFFF;
+    padding: 1.5em;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-maker h3, .site-mission h3 {
+    color: #D62828;
+    margin-bottom: 0.5em;
+}
+
+.about-maker p, .site-mission p {
+    color: #284B63;
+    line-height: 1.6;
+}
+
+.site-mission ul {
+    margin-top: 1em;
+    padding-left: 1em;
+    list-style-type: disc;
+}
+
+.site-mission ul li {
+    color: #284B63;
+    line-height: 1.6;
+}
+
+/* Contact Section */
+.contact {
+    padding: 20px;
+    margin: 20px;
+    background-color: #F3F4F6;
+}
+
+.contact h2 {
+    text-align: center;
+    color: #003049;
+    margin-bottom: 1em;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+.contact-form, .social-links {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5em;
+    width: 100%;
+}
+
+.contact-form h3, .social-links h3 {
+    background-color: #D62828;
+    color: #FFFFFF;
+    padding: 0.5em 1em;
+    margin: -1.5em -1.5em 1em -1.5em;
+    border-radius: 8px 8px 0 0;
+    text-align: center;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    color: #284B63;
+}
+
+
+.contact-form input, .contact-form textarea {
+    padding: 0.75em;
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+    width: 95%;
+    margin-bottom: 1rem;
+    /* margin-right: 20px; */
+}
+
+.contact-form button {
+    background-color: #003049;
+    color: #FFFFFF;
+    padding: 0.75em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #284B63;
+}
+
+.social-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links li {
+    margin-bottom: 0.5em;
+}
+
+.social-links a {
+    color: #003049;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #D62828;
 }
 
 html {
@@ -445,5 +622,20 @@ footer {
 
     .column {
         flex: 0 0 100%;
+    }
+
+    .episode-summary, .filler-arc {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .episode-summary img, .filler-arc img {
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+
+    .episode-summary-content, .filler-arc-content {
+        align-items: center;
     }
 }

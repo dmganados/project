@@ -43,8 +43,8 @@
                     <li><a href="#characters">Characters</a></li>
                     <li><a href="#episodes">Episodes</a></li>
                     <li><a href="#blog">Blog</a></li>
-                    <li><a href="#contact">Contact</a></li>
                     <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Connect</a></li>
                 </ul>
             </nav>
             <button class="menu-toggle">☰</button>
@@ -81,27 +81,98 @@
                 <div id="development-container"></div>
             </div>
         </section>
+        
         <section class="episode-guides" id="episodes">
             <h2>Episode Guides</h2>
 
             <article>
                 <h3>Summaries of Episodes</h3>
-                <!-- <p>Detailed summaries and reviews of episodes and arcs.</p> -->
                 <div id="episode-summaries-container" class="scrollable-card"></div>
             </article>
 
             <article class="filler-guides">
                 <h3>Filler Guides</h3>
-                <!-- <p>Filler episodes are shown, with each series having an overview.</p> -->
                 <div id="filler-guides-container" class="scrollable-card"></div>
             </article>
 
             <article class="upcoming-episodes">
                 <h3>Upcoming Episodes</h3>
-                <!-- <p>News on what is coming next on this show.</p> -->
                 <div id="upcoming-episodes-container"></div>
             </article>
             
+        </section>
+
+        <section id="blog">
+            <h2>Blog</h2>
+            
+            <article class="posts">
+                <h3>Latest Posts</h3>
+
+                <div id="latest-posts-container"></div>
+            </article>
+            
+            <article class="opinions">
+                <h3>Opinion Articles</h3>
+                <div id="opinion-articles-container"></div>
+            </article>
+            
+            <article class="guest-posts">
+                <h3>Guest Posts</h3>
+                <div id="guest-posts-container"></div>
+            </article>
+        </section>
+
+        <section class="about" id="about">
+            <h2>About</h2>
+            <div class="about-container">
+                <div class="about-maker">
+                    <h3>About the Maker</h3>
+                    <p>Hello! I'm Durrel Ganados, a BYU-Idaho student, and this site is a part of my WDD 131 course project. I'm an avid fan of "One Piece," and this project combines my web development skills with my love for the series. While this site is still a work in progress and not based on the most updated episodes, I aim to provide a valuable resource for fellow fans and showcase my development skills.</p>
+                </div>
+                <div class="site-mission">
+                    <h3>Site Mission Statement & Goals</h3>
+                    <p>The mission of "One Piece: The Grand Adventure" is to create a comprehensive and engaging resource for all "One Piece" fans. While this project is still in development, our goal is to eventually provide detailed character profiles, episode summaries, insightful blog posts, and the latest news about the series. As this is a course project, it serves as a platform to practice and demonstrate my web development skills.</p>
+                    <ul>
+                        <li>Provide in-depth character profiles and analyses</li>
+                        <li>Offer detailed summaries and reviews of episodes and arcs</li>
+                        <li>Share news and updates about upcoming episodes and developments</li>
+                        <li>Encourage fan engagement through blog posts and discussions</li>
+                        <li>Create a welcoming space for "One Piece" enthusiasts to connect</li>
+                    </ul>
+                    <p>Note: As this site is a work in progress, the information may not be up to date with the latest episodes of "One Piece."</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2>Contact</h2>
+            <div class="contact-container">
+                <div class="contact-form">
+                    <h3>Reach Out to Us</h3>
+                    <form id="contact-form">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                        
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        
+                        <button type="submit">Send Message</button>
+                    </form>
+                    <p id="form-message" class="form-message"></p>
+                </div>
+                <div class="social-links">
+                    <h3>Join the Community</h3>
+                    <ul>
+                        <li><a href="https://www.facebook.com/onepieceofficial" target="_blank">Facebook</a></li>
+                        <li><a href="https://twitter.com/onepieceanime" target="_blank">Twitter</a></li>
+                        <li><a href="https://www.reddit.com/r/OnePiece/" target="_blank">Reddit</a></li>
+                        <li><a href="https://www.instagram.com/onepiece_official/" target="_blank">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
