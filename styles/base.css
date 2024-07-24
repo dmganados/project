@@ -58,8 +58,13 @@ nav ul li a {
     transition: color 0.3s ease;
 }
 
-nav ul li a:hover, nav ul li a:focus {
-    color: #FFFFFF;
+nav ul li a:hover,
+nav ul li a:focus {
+    color: #F77F00;
+}
+
+nav ul li a.active {
+    color: #F77F00;
 }
 
 nav ul li::after {
@@ -75,7 +80,9 @@ nav ul li::after {
     transform-origin: bottom right;
 }
 
-nav ul li:hover::after, nav ul li:focus-within::after {
+nav ul li:hover::after,
+nav ul li a:focus::after,
+nav ul li a.active::after {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
@@ -238,12 +245,10 @@ main {
 /* Allies and Enemies Section */
 .allies-enemies {
     display: flex;
-    /* flex-wrap: wrap; */
     flex-direction: column;
     align-items: center;
     gap: 1rem;
     padding: 2rem 1rem;
-    /* background-color: #fff; */
     justify-content: space-between;
     text-align: center;
 }
@@ -252,7 +257,6 @@ main {
     font-size: 1.8rem;
     margin-bottom: 1rem;
     color: #003049;
-    /* text-align: center !important; */
 }
 
 .allies-enemies h4 {
@@ -361,7 +365,7 @@ main {
 #episode-guides .episode-summary p strong,
 #episode-guides .filler-arc p strong,
 #episode-guides .upcoming-episode p strong {
-    color: #284B63; /* Dark blue */
+    color: #284B63; 
 }
 
 .scrollable-card {
@@ -370,21 +374,17 @@ main {
     padding: 1rem;
 }
 
-/* .episode-summary-content {
-    display: flex;
-    flex-direction: column;
-} */
 
 /* Blog Section */
 #blog {
     margin: 20px;
     padding: 20px;
-    background-color: #f5f5f5; /* White background */
+    background-color: #f5f5f5; 
 }
 
 #blog h2 {
     text-align: center;
-    color: #003049; /* Dark blue */
+    color: #003049; 
     margin-bottom: 1rem;
 }
 
@@ -423,7 +423,6 @@ main {
 /* About Section */
 .about {
     padding: 2em 0;
-    /* background-color: #EAE2B7; */
 }
 
 .about h2 {
@@ -525,7 +524,6 @@ main {
     border-radius: 4px;
     width: 95%;
     margin-bottom: 1rem;
-    /* margin-right: 20px; */
 }
 
 .contact-form button {
@@ -571,8 +569,6 @@ main {
 .citation ul {
     list-style: none;
     padding: 0;
-    /* margin: 0; */
-    /* display: flex; */
 }
 
 .column-list {
@@ -581,8 +577,8 @@ main {
 }
 
 .column-list li {
-    flex: 1 0 30%; /* Adjust percentage to fit your columns */
-    margin-bottom: 0.25rem; /* Reduced margin-bottom */
+    flex: 1 0 30%; 
+    margin-bottom: 0.25rem; 
 }
 .citation ul li {
     margin-bottom: 0.5rem;
@@ -608,8 +604,6 @@ footer {
     padding: 1rem;
     text-align: center;
 }
-
-
 
 /* Mobile Styles */
 @media (max-width: 768px) {
@@ -639,6 +633,11 @@ footer {
         padding: 1rem;
         color: #FFFFFF;
         text-align: center;
+    }
+
+    nav ul li a.active::after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
     }
 
     .menu-toggle {

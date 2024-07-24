@@ -2,21 +2,54 @@ document.addEventListener('DOMContentLoaded', () => {
     // Header and Navigation 
     const menuToggle = document.querySelector('.menu-toggle');
     const navMenu = document.querySelector('nav ul');
+    const menuItems = document.querySelectorAll('nav ul li a');
 
     menuToggle.addEventListener('click', () => {
         navMenu.classList.toggle('active');
     });
 
-    // Smooth scrolling for anchor links
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function(e) {
+    // Handle clicks on menu items
+    menuItems.forEach(item => {
+        item.addEventListener('click', (e) => {
             e.preventDefault();
+            // Remove active class from all menu items
+            menuItems.forEach(i => i.classList.remove('active'));
 
-            document.querySelector(this.getAttribute('href')).scrollIntoView({
+            // Add active class to the clicked menu item
+            item.classList.add('active');
+
+            // Smooth scrolling to the section
+            document.querySelector(item.getAttribute('href')).scrollIntoView({
                 behavior: 'smooth'
             });
+
+            // Close menu after clicking a menu item on small screens
+            if (window.innerWidth <= 768) {
+                navMenu.classList.remove('active');
+            }
         });
     });
+
+    // Handle clicks outside the menu to remove active item underline
+    document.addEventListener('click', (event) => {
+        if (!event.target.closest('nav ul') && !event.target.closest('.menu-toggle')) {
+            // Don't remove the active class from the current active item
+            // Only handle menu close on small screens
+            if (window.innerWidth <= 768) {
+                navMenu.classList.remove('active');
+            }
+        }
+    });
+
+    // Ensure active item stays underlined on larger screens
+    menuItems.forEach(item => {
+        item.addEventListener('blur', () => {
+            if (item.classList.contains('active')) {
+                item.classList.add('active');
+            }
+        });
+    });
+
 
     // Character Profile Section
     fetch('characters.json')
@@ -105,7 +138,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const episodeDiv = document.createElement('div');
                 episodeDiv.classList.add('episode-summary');
                 episodeDiv.innerHTML = `
-                    <img src="https://wallpapers.com/images/high/one-piece-straw-hat-crew-adventure-yc7b7oz9x34htmeo.webp" alt="One Piece Image">
+                    <img src="https://wallpapers.com/images/high/one-piece-straw-hat-crew-adventure-yc7b7oz9x34htmeo.webp" alt="One Piece Image" loading="lazy">
                     <div class="episode-summary-content">
                         <h4>Episode ${episode.number}: "${episode.title}"</h4>
                         <p><strong>Summary:</strong> ${episode.summary}</p>
@@ -122,7 +155,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const arcDiv = document.createElement('div');
                 arcDiv.classList.add('filler-arc');
                 arcDiv.innerHTML = `
-                    <img src="https://wallpapers.com/images/high/one-piece-chibi-2560-x-1440-i0getzho8x4u7o16.webp" alt="One Piece Image">
+                    <img src="https://wallpapers.com/images/high/one-piece-chibi-2560-x-1440-i0getzho8x4u7o16.webp" alt="One Piece Image" loading="lazy">
                     <div class="filler-arc-content">
                         <h4>${arc.title}</h4>
                         <p><strong>Episodes Covered:</strong> ${arc.episodes_covered}</p>
