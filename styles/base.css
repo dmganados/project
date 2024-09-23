@@ -132,8 +132,69 @@ main {
     margin-bottom: 1rem;
 }
 
-/* Character Profile Section */
-.character-profiles {
+/* Character Section */
+.home-section {
+    display: flex;
+    background-color: #fff;
+    margin-top: 5rem;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.home-section img {
+    object-fit: cover;
+    width: 50%;
+    height: 100%;
+}
+
+.home-section div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+}
+
+.section-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.home-section h2 {
+    margin-bottom: 1rem;
+}
+
+.home-section p {
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+/* Episode section */
+/* .episode-section {
+    display: flex;
+    background-color: #fff;
+    margin-top: 5rem;
+    border-radius: 10px;
+    overflow: hidden;
+} */
+
+/* .episode-copy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+} */
+
+/* .episode-section img {
+    object-fit: cover;
+    width: 50%;
+    height: 100%;
+} */
+
+/* .character-profiles {
     margin: 20px;
     padding: 20px;
     text-align: center;
@@ -189,10 +250,10 @@ main {
     margin: 0.5rem 0;
     flex: 1;
     color: #333;
-}
+} */
 
 /* Slick Carousel Styles */
-.slick-slider {
+/* .slick-slider {
     position: relative;
     display: block;
     box-sizing: border-box;
@@ -227,10 +288,10 @@ main {
     border-radius: 5px;
     padding: 15px;
     background: #f9f9f9;
-}
+} */
 
 /* Slick arrows */
-.slick-prev, .slick-next {
+/* .slick-prev, .slick-next {
     font-size: 24px;
     color: #333;
     line-height: 1;
@@ -240,10 +301,10 @@ main {
 
 .slick-prev:hover, .slick-next:hover {
     opacity: 1;
-}
+} */
 
 /* Allies and Enemies Section */
-.allies-enemies {
+/* .allies-enemies {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -286,11 +347,11 @@ main {
     height: 100px;
     object-fit: cover;
     margin-right: 0.5rem;
-}
+} */
 
 
 /* Character Development Section */
-.character-development {
+/* .character-development {
     padding: 20px;
     margin-top: 20px;
     border-radius: 5px;
@@ -316,7 +377,7 @@ main {
     margin: 0.5rem 0;
     color: #333;
     text-align: justify;
-}
+} */
 
 /* Episode Guides */
 .episode-guides {
@@ -650,22 +711,58 @@ footer {
         cursor: pointer;
     }
 
-    .column {
-        flex: 0 0 100%;
-    }
-
-    .episode-summary, .filler-arc {
+/* Home section */
+    .home-section {
+        /* display: flex; */
         flex-direction: column;
-        align-items: center;
-        text-align: center;
+        align-items: stretch;
+        margin-top: 2rem;
     }
 
-    .episode-summary img, .filler-arc img {
-        margin-right: 0;
+    .home-section img {
+        /* object-fit: cover; */
+        width: 100%;
+        height: auto;
+        /* display: block; */
         margin-bottom: 1rem;
     }
 
-    .episode-summary-content, .filler-arc-content {
-        align-items: center;
+    .home-section div {
+        /* display: flex; */
+        /* justify-content: center; */
+        width: auto;
+        text-align: center;
+        padding: 0 1rem;
     }
+
+    .home-section h2 {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    } 
+
+    .home-section p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+
+
+    /* .column {
+        flex: 0 0 100%;
+    } */
+
+    /* .episode-summary, .filler-arc {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    } */
+
+    /* .episode-summary img, .filler-arc img {
+        margin-right: 0;
+        margin-bottom: 1rem;
+    } */
+
+    /* .episode-summary-content, .filler-arc-content {
+        align-items: center;
+    } */
 }

@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Header and Navigation 
     const menuToggle = document.querySelector('.menu-toggle');
     const navMenu = document.querySelector('nav ul');
-    const menuItems = document.querySelectorAll('nav ul li a');
+    // const menuItems = document.querySelectorAll('nav ul li a');
 
     menuToggle.addEventListener('click', () => {
         navMenu.classList.toggle('active');
@@ -41,6 +41,14 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    // document.addEventListener('click', (event) => {
+    //     if (!navMenu.contains(event.target) && !menuToggle.contains(event.target)) {
+    //         if (window.innerWidth <= 768) {
+    //             navMenu.classList.remove('active');
+    //         }
+    //     }
+    // });
+
     // Ensure active item stays underlined on larger screens
     menuItems.forEach(item => {
         item.addEventListener('blur', () => {
@@ -55,48 +63,48 @@ document.addEventListener('DOMContentLoaded', () => {
     fetch('characters.json')
         .then(response => response.json())
         .then(data => {
-            const charactersContainer = document.getElementById('characters-container');
+            // const charactersContainer = document.getElementById('characters-container');
             const alliesList = document.getElementById('allies-list');
             const enemiesList = document.getElementById('enemies-list');
             const developmentContainer = document.getElementById('development-container');
 
             // Populate Character Profile
-            data.characters.forEach(character => {
-                const characterDiv = document.createElement('div');
-                characterDiv.classList.add('character');
-                characterDiv.innerHTML = `
-                    <img src="${character.image}" alt="${character.name} loading="lazy">
-                    <div class="label">${character.name}</div>
-                    <h3>Role: ${character.role}</h3>
-                    ${character.devilFruit ? `<p>Devil Fruit: ${character.devilFruit}</p>` : ''}
-                    ${character.weapons ? `<p>Weapons: ${character.weapons}</p>` : ''}
-                    ${character.skills ? `<p>Skills: ${character.skills}</p>` : ''}
-                    ${character.weapon ? `<p>Weapon: ${character.weapon}</p>` : ''}
-                    ${character.fightingStyle ? `<p>Fighting Style: ${character.fightingStyle}</p>` : ''}
-                    ${character.modifications ? `<p>Modifications: ${character.modifications}</p>` : ''}
-                    <p>${character.description}</p>
-                `;
-                charactersContainer.appendChild(characterDiv);
-            });
+            // data.characters.forEach(character => {
+            //     const characterDiv = document.createElement('div');
+            //     characterDiv.classList.add('character');
+            //     characterDiv.innerHTML = `
+            //         <img src="${character.image}" alt="${character.name} loading="lazy">
+            //         <div class="label">${character.name}</div>
+            //         <h3>Role: ${character.role}</h3>
+            //         ${character.devilFruit ? `<p>Devil Fruit: ${character.devilFruit}</p>` : ''}
+            //         ${character.weapons ? `<p>Weapons: ${character.weapons}</p>` : ''}
+            //         ${character.skills ? `<p>Skills: ${character.skills}</p>` : ''}
+            //         ${character.weapon ? `<p>Weapon: ${character.weapon}</p>` : ''}
+            //         ${character.fightingStyle ? `<p>Fighting Style: ${character.fightingStyle}</p>` : ''}
+            //         ${character.modifications ? `<p>Modifications: ${character.modifications}</p>` : ''}
+            //         <p>${character.description}</p>
+            //     `;
+            //     charactersContainer.appendChild(characterDiv);
+            // });
 
             // Initialize the carousel
-            $('.carousel').slick({
-                infinite: true,
-                slidesToShow: 3,
-                slidesToScroll: 1,
-                autoplay: true,
-                autoplaySpeed: 2000,
-                arrows: true,
-                responsive: [
-                    {
-                        breakpoint: 768,
-                        settings: {
-                            slidesToShow: 1,
-                            slidesToScroll: 1
-                        }
-                    }
-                ]
-            });
+            // $('.carousel').slick({
+            //     infinite: true,
+            //     slidesToShow: 3,
+            //     slidesToScroll: 1,
+            //     autoplay: true,
+            //     autoplaySpeed: 2000,
+            //     arrows: true,
+            //     responsive: [
+            //         {
+            //             breakpoint: 768,
+            //             settings: {
+            //                 slidesToShow: 1,
+            //                 slidesToScroll: 1
+            //             }
+            //         }
+            //     ]
+            // });
 
             // Populate Allies
             data.allies.forEach(ally => {
