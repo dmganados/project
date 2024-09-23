@@ -744,25 +744,20 @@ footer {
         font-size: 14px;
         line-height: 1.5;
     }
+}
 
+/* Align the second section image to the right on larger screens */
+@media (min-width: 769px) {
+    .second-section {
+        flex-direction: row;
+    }
 
+    .second-section div {
+        order: 1;
+    }
 
-    /* .column {
-        flex: 0 0 100%;
-    } */
-
-    /* .episode-summary, .filler-arc {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    } */
-
-    /* .episode-summary img, .filler-arc img {
-        margin-right: 0;
-        margin-bottom: 1rem;
-    } */
-
-    /* .episode-summary-content, .filler-arc-content {
-        align-items: center;
-    } */
+    .second-section img {
+        order: 2;
+        width: 50%;
+    }
 }
