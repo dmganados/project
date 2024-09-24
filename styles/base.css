@@ -96,6 +96,7 @@ main {
     padding: 1rem;
 }
 
+/* Home Page */
 /* Introduction Section */
 .intro {
     color: #FFFFFF;
@@ -146,7 +147,7 @@ main {
 }
 
 /* Character Section */
-.home-section {
+.card-section {
     display: flex;
     background-color: #fff;
     margin-top: 5rem;
@@ -154,13 +155,13 @@ main {
     overflow: hidden;
 }
 
-.home-section img {
+.card-section img {
     object-fit: cover;
     width: 50%;
     height: 100%;
 }
 
-.home-section div {
+.card-section div {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -174,223 +175,14 @@ main {
     color: inherit;
 }
 
-.home-section h2 {
+.card-section h2 {
     margin-bottom: 1rem;
 }
 
-.home-section p {
+.card-section p {
     line-height: 1.5;
     font-size: 1rem;
 }
-
-/* Episode section */
-/* .episode-section {
-    display: flex;
-    background-color: #fff;
-    margin-top: 5rem;
-    border-radius: 10px;
-    overflow: hidden;
-} */
-
-/* .episode-copy {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 20px;
-    width: 50%;
-    text-align: center;
-} */
-
-/* .episode-section img {
-    object-fit: cover;
-    width: 50%;
-    height: 100%;
-} */
-
-/* .character-profiles {
-    margin: 20px;
-    padding: 20px;
-    text-align: center;
-    background-color: #f5f5f5;
-}
-
-.character-profiles h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-}
-
-.character-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1rem;
-}
-
-.character {
-    background-color: #fff;
-    border-radius: 8px;
-    padding: 1rem;
-    margin: 1rem ;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    height: 100%;
-    min-height: 900px;
-    box-sizing: border-box;
-}
-
-.character img {
-    width: 100%;
-    border-radius: 8px;
-    max-height: 200px; 
-    object-fit: cover;
-    display: block;
-    margin-bottom: 10px;
-}
-
-.character .label {
-    margin-top: 0.5rem;
-    font-weight: bold;
-    color: #003049;
-}
-
-.character h3 {
-    margin: 0.5rem 0;
-    color: #003049;
-}
-
-.character p {
-    margin: 0.5rem 0;
-    flex: 1;
-    color: #333;
-} */
-
-/* Slick Carousel Styles */
-/* .slick-slider {
-    position: relative;
-    display: block;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-.slick-list {
-    position: relative;
-    display: block;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-}
-
-.slick-track {
-    display: flex;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-}
-
-.slick-slide {
-    position: relative;
-    display: block;
-    padding: 0 10px; 
-}
-
-.character {
-    text-align: center;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 15px;
-    background: #f9f9f9;
-} */
-
-/* Slick arrows */
-/* .slick-prev, .slick-next {
-    font-size: 24px;
-    color: #333;
-    line-height: 1;
-    opacity: 0.75;
-    transition: opacity .15s ease-in-out;
-}
-
-.slick-prev:hover, .slick-next:hover {
-    opacity: 1;
-} */
-
-/* Allies and Enemies Section */
-/* .allies-enemies {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-    padding: 2rem 1rem;
-    justify-content: space-between;
-    text-align: center;
-}
-
-.allies-enemies h3 {
-    font-size: 1.8rem;
-    margin-bottom: 1rem;
-    color: #003049;
-}
-
-.allies-enemies h4 {
-    font-size: 1.4rem;
-    margin-top: 1rem;
-    color: #003049;
-}
-
-.allies-enemies ul {
-    list-style-type: none;
-    padding-left: 0;
-    margin: 0;
-    display: grid;
-    gap: 1rem;
-}
-
-.allies-enemies ul li {
-    margin: 0.5rem 0;
-    color: #333;
-    display: flex;
-    align-items: center;
-    text-align: center;
-}
-
-.allies-enemies ul li img {
-    width: 100px; 
-    height: 100px;
-    object-fit: cover;
-    margin-right: 0.5rem;
-} */
-
-
-/* Character Development Section */
-/* .character-development {
-    padding: 20px;
-    margin-top: 20px;
-    border-radius: 5px;
-}
-
-.character-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-}
-
-.character-development h3 {
-    font-size: 1.8rem;
-    margin-bottom: 1rem;
-}
-
-.character-development ul {
-    list-style-type: none;
-    padding-left: 1.5rem;
-}
-
-.character-development ul li {
-    margin: 0.5rem 0;
-    color: #333;
-    text-align: justify;
-} */
 
 /* Episode Guides */
 .episode-guides {
