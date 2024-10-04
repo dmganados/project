@@ -427,7 +427,7 @@ main {
 }
 
 /* Citation Attributes Section */
-.citation h2 {
+/* .citation h2 {
     color: #003049;
     font-size: small;
 }
@@ -458,7 +458,7 @@ main {
 
 .citation ul li a:hover {
     text-decoration: underline;
-}
+} */
 
 html {
     scroll-behavior: smooth;
@@ -549,6 +549,9 @@ footer {
         font-size: 14px;
         line-height: 1.5;
     }
+
+/* Character Section */
+
 }
 
 /* Align the second section image to the right on larger screens */
